@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_R6BtEPY_Eeq-y4T7PWLj-Q" targetNamespace="http://tns.tibco.com/bw/composite/HTTPTOJMSV9" name="HTTPTOJMSV9" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_SerSQPY_Eeq-y4T7PWLj-Q" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Se24cPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Se7w8PY_Eeq-y4T7PWLj-Q" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfACYPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfET0PY_Eeq-y4T7PWLj-Q" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfJMUPY_Eeq-y4T7PWLj-Q" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_SfNdwPY_Eeq-y4T7PWLj-Q" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Wy_nIPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_WzD4kPY_Eeq-y4T7PWLj-Q" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_WzGU0PY_Eeq-y4T7PWLj-Q" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+
+  <sca:component xmi:id="_hkwu0AOsEeu40swGQO-J9A" name="ComponentMainProcess_HTTPReceiver_JMSSendMessage" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_hk6f0AOsEeu40swGQO-J9A" processName="HTTPTOJMSV9.MainProcess_HTTPReceiver_JMSSendMessage"/>
+  </sca:component>
+</sca:composite>
